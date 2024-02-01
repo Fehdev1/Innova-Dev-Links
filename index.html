@@ -1,15 +1,87 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Agregador de Links</title>
-     <link rel="stylesheet" href="style.css">
-</head>
-<body>
-     <div id="container">
-          
-     </div>
-</body>
+<html lang="pt-br" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Agregador de Links</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  
+    <!------------- INICIO DA DIV "CONTAINER" -------------->
+    <div id="container">
+  
+      <!------------ INICIO - Imagem no topo e Paragrafo ----------------->
+      <div id="profile">
+        <img
+          src="https://github.com/Fehdev1.png"
+          alt="foto do rosto com borda amarela"
+        />
+        <p>@Feh.Dev</p>
+      </div>
+    <!------------- FIM ------------->
+
+    <!------------- INICIO - Lista não ordenada é uma série de links -------------->
+      <ul>
+        <li>
+          <a href="#">Inscreva-se Aqui</a>
+        </li>
+
+        <li>
+          <a href="#">Baixar meu e-book</a>
+        </li>
+
+        <li>
+          <a href="#">Ver meu Portfólio</a>
+        </li>
+
+        <li>
+          <a href="#">Conheça o Explore</a>
+        </li>
+      </ul>
+    <!------------- FIM  -------------->
+
+    <!------------- INICIO - ÍCONES de redes sociais vinculados a perfis do usuário ----------->
+      <div id="social-links">
+        <a href="https://www.instagram.com/feh.dev/">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
+        <a href="https://www.linkedin.com/in/fehdev/">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+
+        <a href="https://github.com/Fehdev1">
+          <ion-icon name="logo-github"></ion-icon>
+        </a>
+        <a href="">
+          <ion-icon name="logo-youtube"></ion-icon>
+        </a>
+      </div>
+    <!------------- FIM  -------------->
+
+    <!-------------------------- INICIO - Footer ----------------------------------------->
+      <footer class="footer">
+        Feito por @Feh.Dev e pela Rocketseat ♥
+      </footer>
+    <!--------------- FIM ------------->
+    
+    </div>
+  <!--------------- FIM DA DIV "CONTAINER" ------------->
+
+    <!----------- Script do icons ------------>
+    <!-- O primeiro script carrega os ícones do Ionicons usando a versão de módulo. -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <!-- O segundo script é uma versão de fallback para navegadores que não suportam módulos. -->
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
