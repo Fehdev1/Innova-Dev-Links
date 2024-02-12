@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br" class="light">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -10,11 +10,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-  
-    <!------------- INICIO DA DIV "CONTAINER" -------------->
+    <!-- INICIO DA DIV "CONTAINER" -->
     <div id="container">
-  
-      <!------------ INICIO - Imagem no topo e Paragrafo ----------------->
+      <!-- INICIO - Imagem no topo e Paragrafo -->
       <div id="profile">
         <img
           src="https://github.com/Fehdev1.png"
@@ -22,9 +20,13 @@
         />
         <p>@Feh.Dev</p>
       </div>
-    <!------------- FIM ------------->
 
-    <!------------- INICIO - Lista não ordenada é uma série de links -------------->
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
+
+      <!-- INICIO - Lista não ordenada -->
       <ul>
         <li>
           <a href="#">Inscreva-se Aqui</a>
@@ -42,9 +44,8 @@
           <a href="#">Conheça o Explore</a>
         </li>
       </ul>
-    <!------------- FIM  -------------->
 
-    <!------------- INICIO - ÍCONES de redes sociais vinculados a perfis do usuário ----------->
+      <!--INICIO - ÍCONES de redes sociais -->
       <div id="social-links">
         <a href="https://www.instagram.com/feh.dev/">
           <ion-icon name="logo-instagram"></ion-icon>
@@ -57,31 +58,26 @@
         <a href="https://github.com/Fehdev1">
           <ion-icon name="logo-github"></ion-icon>
         </a>
-        <a href="">
+        <a href="#">
           <ion-icon name="logo-youtube"></ion-icon>
         </a>
       </div>
-    <!------------- FIM  -------------->
 
-    <!-------------------------- INICIO - Footer ----------------------------------------->
-      <footer class="footer">
-        Feito por @Feh.Dev e pela Rocketseat ♥
-      </footer>
-    <!--------------- FIM ------------->
-    
+      <!-- INICIO - Footer -->
+      <footer class="footer">Feito por @Feh.Dev e pela Rocketseat ♥</footer>
     </div>
-  <!--------------- FIM DA DIV "CONTAINER" ------------->
 
-    <!----------- Script do icons ------------>
-    <!-- O primeiro script carrega os ícones do Ionicons usando a versão de módulo. -->
+    <!-- Script do icons -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
     ></script>
-    <!-- O segundo script é uma versão de fallback para navegadores que não suportam módulos. -->
+
     <script
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+
+    <script src="./script.js"></script>
   </body>
 </html>

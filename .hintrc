@@ -3,6 +3,30 @@
     "development"
   ],
   "hints": {
-    "highest-available-document-mode": "off"
-  }
+    "highest-available-document-mode": "off",
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off",
+        "button-name": "off"
+      }
+    ],
+    "css-prefix-order": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "backdrop-filter",
+          "-webkit-backdrop-filter"
+        ]
+      }
+    ],
+    "detect-css-reflows/composite": "off"
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 118",
+    "not firefox <= 118"
+  ]
 }
